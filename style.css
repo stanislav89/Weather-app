@@ -11,3 +11,32 @@ body {
     align-items: center;
     background-color: cadetblue;
 }
+
+.container {
+    width: 500px;
+    height: 625px;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    transition: 0.5s ease-out;
+}
+
+.search-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-row input {
+    width: 75%;
+    font-size: 20px;
+}
+
+.not-found img {
+    width: 75%;
+    margin-top: 25px;
+}
